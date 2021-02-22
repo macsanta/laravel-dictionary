@@ -1,11 +1,11 @@
 {
-    "name": "argonium-laravel-packages/laravel-dictionary",
+    "name": "argonium/laravel-dictionary",
     "type": "library",
     "description": "Translations manager for Laravel",
     "keywords": [
         "LaravelDictionary"
     ],
-    "homepage": "https://gitlab.argonium.pl/argonium-laravel-packages",
+    "homepage": "https://github.com/macsanta/laravel-dictionary",
     "license": "MIT",
     "authors": [
         {
