@@ -1,0 +1,46 @@
+{
+    "name": "argonium-laravel-packages/laravel-dictionary",
+    "type": "library",
+    "description": "Translations manager for Laravel",
+    "keywords": [
+        "LaravelDictionary"
+    ],
+    "homepage": "https://gitlab.argonium.pl/argonium-laravel-packages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Argonium",
+            "email": "support@argonium.pl",
+            "homepage": "http://argonium.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.6|~7.0",
+        "orchestra/testbench": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "KamilZawada\\LaravelDictionary\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KamilZawada\\LaravelDictionary\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KamilZawada\\LaravelDictionary\\LaravelDictionaryServiceProvider"
+            ]
+        }
+    }
+}
